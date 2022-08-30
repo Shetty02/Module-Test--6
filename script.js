@@ -86,7 +86,7 @@ const validation = () => {
         error = true;
     }
     /*---------------------------Phone----------------------------------------*/ 
-    if(phone.length === 10 && phone.includes('1','2','3','4','5','6','7','8','9','0')){        
+    if(phone.length === 10 && phone.includes('1','2','3','4','5','6','7','8','9','0') !== 0){        
         document.getElementById('valid-phone-number').style.display = 'block'
         document.getElementById('invalid-phone-number').style.display = 'none'
     }
